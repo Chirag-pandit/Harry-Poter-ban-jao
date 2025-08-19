@@ -1,17 +1,18 @@
 <!--
 README for: https://github.com/Chirag-pandit/Harry-Poter-ban-jao
-Tip: Put your GIFs/PNGs in /assets before pushing:
-- assets/harry-title.gif       (hero/banner animation)
-- assets/harry-cloak-demo.gif  (screen capture of your effect)
+Tip: Add your GIFs/PNGs in /assets before pushing:
+- assets/harry-title.gif       (banner/hero animation)
+- assets/harry-cloak-demo.gif  (screen capture of cloak effect)
 -->
 
 <div align="center">
   <img src="assets/harry-title.gif" alt="Harry Potter Cloak Banner" width="720" />
-  <h1>🧙‍♂️ Harry Potter Invisibility Cloak — OpenCV</h1>
+  <h1>🧙‍♂️ Harry Potter Invisibility Cloak — Python + OpenCV</h1>
 
   <p>
-    Real-time invisibility cloak effect using <b>Python + OpenCV</b>.<br/>
-    Press <b>C</b> to capture the background, wear a solid colored cloth (Red/Green/Blue/White), and <i>poof</i> — you vanish!
+    Real-time invisibility cloak effect built with <b>Python & OpenCV</b>.<br/>
+    Press <b>C</b> to capture the background, wear a solid colored cloak (Red/Green/Blue/White), 
+    and <i>poof!</i> — you disappear like Harry Potter 🪄.
   </p>
 
   <!-- Badges -->
@@ -27,14 +28,6 @@ Tip: Put your GIFs/PNGs in /assets before pushing:
 
 ## ✨ Demo
 
-> Put your screen-capture GIF here:
->
-> ```
-> assets/harry-cloak-demo.gif
-> ```
->
-> Example embed:
-
 <p align="center">
   <img src="assets/harry-cloak-demo.gif" alt="Invisibility Cloak Demo" width="720"/>
 </p>
@@ -43,3 +36,25 @@ Tip: Put your GIFs/PNGs in /assets before pushing:
 
 ## 🗂️ Project Structure
 
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# 1) Clone repo
+git clone https://github.com/Chirag-pandit/Harry-Poter-ban-jao.git
+cd Harry-Poter-ban-jao
+
+# 2) (Optional) Create & activate venv
+python -m venv .venv
+# Windows
+.\.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+# 3) Install dependencies
+pip install -r requirements.txt
+
+# 4) Run
+python src/cloak.py
